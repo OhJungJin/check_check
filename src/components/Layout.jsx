@@ -1,16 +1,17 @@
 import React from "react";
 
-import { Container } from "@mantine/core";
+import { Container, Paper } from "@mantine/core";
 import Header from "./Header";
 
 function Layout({ children }) {
-	return (
-		<Container size="xs">
-			
-			<Header />
-			{children}
-		</Container>
-	);
+  return (
+    <Container size="xs" h="full">
+      <Paper shadow="xl" p="md" radius="lg" h="screen">
+        <Header />
+        {children}
+      </Paper>
+    </Container>
+  );
 }
 
 export default Layout;

@@ -1,14 +1,18 @@
 import React from "react";
-import Layout from "../components/Layout";
 
-import { Grid } from "@mantine/core";
+import Layout from "../components/Layout";
+import CheckGrid from "../components/Home/CheckGrid";
+import Calendar from "../components/Home/Calendar";
+import Paragraph from "../components/Home/Paragraph";
 
 function Home() {
-	return (
-		<Layout>
-			<div className="bg-red-200">hi</div>
-		</Layout>
-	);
+  return (
+    <Layout>
+      <CheckGrid />
+      <Paragraph />
+      <Calendar />
+    </Layout>
+  );
 }
 
 export default Home;
