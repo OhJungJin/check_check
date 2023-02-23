@@ -5,8 +5,8 @@ import Header from "./Header";
 
 function Layout({ children }) {
   return (
-    <Container size="xs" h="full">
-      <Paper shadow="xl" p="md" radius="lg" h="screen">
+    <Container size="xs" h="auto" mih="100vh">
+      <Paper shadow="xl" p="md" radius="lg" mih="100vh">
         <Header />
         {children}
       </Paper>
