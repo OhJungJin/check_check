@@ -6,6 +6,7 @@ import Header from "./Header";
 function Layout({ children }) {
 	return (
 		<Container size="xs">
+			
 			<Header />
 			{children}
 		</Container>
