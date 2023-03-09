@@ -7,7 +7,7 @@ function Layout({ children }) {
   return (
     <Container size="xs" h="auto" mih="100vh">
       <Paper shadow="xl" p="md" radius="lg" mih="100vh">
-        <Header />
+        {/* <Header /> */}
         {children}
       </Paper>
     </Container>
