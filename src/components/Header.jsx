@@ -19,7 +19,7 @@ function Header() {
         fw={700}
         mt={40}
       >
-        오정진
+        오정
         <Text component="span">님 안녕하세요</Text>
       </Text>
     </MantineProvider>
